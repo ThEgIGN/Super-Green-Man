@@ -1,0 +1,25 @@
+.button {
+    width: 300px;
+    height: 150px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/UI%20Toolkit/ARCADE.TTF?fileID=12800000&guid=5590dc2f0f6601341b05466b3fc88a14&type=3#ARCADE");
+    font-size: 50px;
+    -unity-font-style: normal;
+    background-image: url("project://database/Assets/Sprites/Button.png?fileID=773177154&guid=ae76aeb8fc701dd41a79c474bfab940c&type=3#Button_3");
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    background-image: url("project://database/Assets/Sprites/Button.png?fileID=439153351&guid=ae76aeb8fc701dd41a79c474bfab940c&type=3#Button_4");
+    -unity-font-style: normal;
+}

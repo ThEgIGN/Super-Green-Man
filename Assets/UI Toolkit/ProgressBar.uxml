@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/myStyles.uss?fileID=7433441132597879392&amp;guid=e27af6e67a9c92d48a974b43553ff77e&amp;type=3#myStyles" />
+    <ui:VisualElement name="Background" class="progressBar--background" style="flex-grow: 1; overflow: hidden; background-color: rgb(53, 51, 51);">
+        <ui:VisualElement name="Overlay" class="progressBar--overlay" style="width: 50%; height: 100%; background-color: rgb(233, 28, 28);" />
+    </ui:VisualElement>
+</ui:UXML>
